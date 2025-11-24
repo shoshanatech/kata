@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "test (quiet)",
+			"type": "shell",
+			"command": "dotnet",
+			"args": [
+				"test",
+				"--settings",
+				"KataProject.runsettings"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$msCompile"
+			],
+			"group": "test"
+		}
+	]
+}
